@@ -44,6 +44,9 @@ Berikut adalah beberapa tangkapan layar (screenshot) dari tampilan aplikasi:
 ### Tampilan News
 ![Tampilan News di Berita-AI](https://github.com/aryamuktisatria/Berita-AI/blob/main/public/demo/demo-3.png)
 
+### Tampilan Mobile
+![Tampilan Mobile di Berita-AI](https://github.com/aryamuktisatria/Berita-AI/blob/main/public/demo/demo-4.png)
+
 ## ⚙️ Cara Memulai
 
 Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
