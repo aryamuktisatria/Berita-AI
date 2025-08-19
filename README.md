@@ -4,26 +4,32 @@ Berita-AI adalah portal berita modern dan inovatif yang memanfaatkan kekuatan Ke
 
 ## ✨ Fitur Unggulan
 
-* **Agregasi Berita Cerdas**: Mengumpulkan berita dari berbagai sumber tepercaya secara real-time.
-* **Personalisasi Konten**: Algoritma AI akan menyajikan berita yang relevan dengan minat dan preferensi pengguna.
-* **Antarmuka Pengguna Responsif**: Tampilan yang dinamis dan adaptif, dapat diakses dengan nyaman di perangkat desktop maupun mobile.
-* **Animasi Interaktif**: Menggunakan **Framer Motion** untuk animasi yang halus dan menarik, meningkatkan pengalaman visual.
-* **Desain Modern & Minimalis**: Tata letak yang bersih dan fokus pada konten, didukung oleh **Tailwind CSS**.
+- **Agregasi Berita Cerdas**: Mengumpulkan berita dari berbagai sumber tepercaya secara real-time.
+- **Personalisasi Konten**: Algoritma AI akan menyajikan berita yang relevan dengan minat dan preferensi pengguna.
+- **Antarmuka Pengguna Responsif**: Tampilan yang dinamis dan adaptif, dapat diakses dengan nyaman di perangkat desktop maupun mobile.
+- **Animasi Interaktif**: Menggunakan **Framer Motion** untuk animasi yang halus dan menarik, meningkatkan pengalaman visual.
+- **Desain Modern & Minimalis**: Tata letak yang bersih dan fokus pada konten, didukung oleh **Tailwind CSS**.
 
 ## 🚀 Teknologi yang Digunakan
 
-* **React**: Pustaka JavaScript terpopuler untuk membangun antarmuka pengguna yang modern dan interaktif.
-* **Vite**: Build tool yang sangat cepat untuk pengembangan frontend, memberikan pengalaman developer yang optimal.
-* **Tailwind CSS**: Framework CSS berbasis utility-first untuk styling yang cepat dan fleksibel.
-* **Framer Motion**: Pustaka untuk membuat animasi yang kompleks dan elegan dengan mudah di React.
+- **React**: Pustaka JavaScript terpopuler untuk membangun antarmuka pengguna yang modern dan interaktif.
+- **Vite**: Build tool yang sangat cepat untuk pengembangan frontend, memberikan pengalaman developer yang optimal.
+- **Tailwind CSS**: Framework CSS berbasis utility-first untuk styling yang cepat dan fleksibel.
+- **Framer Motion**: Pustaka untuk membuat animasi yang kompleks dan elegan dengan mudah di React.
 
 ## 📡 Sumber Data (API)
 
-Proyek ini mendapatkan data berita dari tiga API global terkemuka untuk memastikan cakupan yang luas dan informasi yang beragam.
+Proyek ini mendapatkan data berita dari tiga API global terkemuka untuk memastikan cakupan yang luas dan informasi yang beragam:
 
-* **News API**: Menyediakan akses ke ribuan sumber berita.
-* **The News API**: Agregator berita yang kuat dengan jangkauan global.
-* **World News API**: Menawarkan berita dari lebih dari 210 negara dalam berbagai bahasa.
+- [**News API**](https://newsapi.org/): Menyediakan akses ke ribuan sumber berita.
+- [**The News API**](https://www.thenewsapi.com/): Agregator berita yang kuat dengan jangkauan global.
+- [**World News API**](https://worldnewsapi.com/): Menawarkan berita dari lebih dari 210 negara dalam berbagai bahasa.
+
+## ✉️ Formulir Kontak (Formspree)
+
+Untuk menangani pengiriman formulir kontak dan memastikan pesan bisa masuk ke email, proyek ini menggunakan **Formspree**.
+
+- **Cara Kerja**: Anda cukup memasukkan URL endpoint Formspree ke dalam kode formulir kontak Anda. Setiap kali formulir dikirim, Formspree akan secara otomatis meneruskan data ke alamat email Anda tanpa perlu menulis kode backend.
 
 ## 🖼️ Tampilan Aplikasi
 
@@ -36,7 +42,7 @@ Berikut adalah beberapa tangkapan layar (screenshot) dari tampilan aplikasi:
 ![Bagian Fitur About Berita-AI](https://github.com/aryamuktisatria/Berita-AI/blob/main/public/demo/demo-2.png)
 
 ### Tampilan News
-![Tampilan News di Berita-AI ](https://github.com/aryamuktisatria/Berita-AI/blob/main/public/demo/demo-3.png)
+![Tampilan News di Berita-AI](https://github.com/aryamuktisatria/Berita-AI/blob/main/public/demo/demo-3.png)
 
 ## ⚙️ Cara Memulai
 
@@ -53,6 +59,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
     ```
 
 3.  **Instal semua dependensi:**
+    Perintah ini akan memasang semua pustaka yang dibutuhkan dari `package.json`.
     ```bash
     npm install
     ```
